@@ -6,6 +6,8 @@
 
 3. Запустите проект: npm run start
 
+4. Выполните тесты: npm test
+
 ## Структура проекта
 
 1. src/components — папка с компонентами (TodoApp, TodoList, TodoItem, Footer)
@@ -21,3 +23,10 @@ npx create-react-app todo-app --template typescript
 ## Для установки Jest и React Testing Library использовалась команда:
 
 npm install @testing-library/react @testing-library/jest-dom jest
+
+## Заключение
+Данное приложение можно расширить, добавив сохранение задач в localStorage или использовать Redux для управления состоянием.
+
+## Автор проекта
+
+Алина Вдовиченко

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import TodoList from './TodoList';
 import Footer from './Footer';
+import { Filter } from '../types/filter';
 
 interface Todo {
   id: number;
@@ -10,7 +11,7 @@ interface Todo {
 
 const TodoApp: React.FC = () => {
   const [todos, setTodos] = useState<Todo[]>([]);
-  const [filter, setFilter] = useState<'all' | 'active' | 'completed'>('all');
+  const [filter, setFilter] = useState<Filter.all | Filter.active | Filter.completed>(Filter.all);
 
   const addTodo = (text: string) => {
     setTodos([...todos, { id: Date.now(), text, completed: false }]);
@@ -29,8 +30,8 @@ const TodoApp: React.FC = () => {
   };
 
   const filteredTodos = todos.filter(todo => {
-    if (filter === 'active') return !todo.completed;
-    if (filter === 'completed') return todo.completed;
+    if (filter === Filter.active) return !todo.completed;
+    if (filter === Filter.completed) return todo.completed;
     return true;
   });
 
