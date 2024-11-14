@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/alinavdovichenko/minbox-test/static/css/main.e6c13ad2.css",
-    "main.js": "/alinavdovichenko/minbox-test/static/js/main.dcba7e36.js",
-    "static/js/453.ac79db8d.chunk.js": "/alinavdovichenko/minbox-test/static/js/453.ac79db8d.chunk.js",
-    "index.html": "/alinavdovichenko/minbox-test/index.html",
-    "main.e6c13ad2.css.map": "/alinavdovichenko/minbox-test/static/css/main.e6c13ad2.css.map",
-    "main.dcba7e36.js.map": "/alinavdovichenko/minbox-test/static/js/main.dcba7e36.js.map",
-    "453.ac79db8d.chunk.js.map": "/alinavdovichenko/minbox-test/static/js/453.ac79db8d.chunk.js.map"
+    "main.css": "/minbox-test/static/css/main.e6c13ad2.css",
+    "main.js": "/minbox-test/static/js/main.fa2d2cc2.js",
+    "static/js/453.ac79db8d.chunk.js": "/minbox-test/static/js/453.ac79db8d.chunk.js",
+    "index.html": "/minbox-test/index.html",
+    "main.e6c13ad2.css.map": "/minbox-test/static/css/main.e6c13ad2.css.map",
+    "main.fa2d2cc2.js.map": "/minbox-test/static/js/main.fa2d2cc2.js.map",
+    "453.ac79db8d.chunk.js.map": "/minbox-test/static/js/453.ac79db8d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.dcba7e36.js"
+    "static/js/main.fa2d2cc2.js"
   ]
 }
